@@ -1,0 +1,142 @@
+html {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    max-width: 1868px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;   
+    margin: 0 auto;
+  }
+  .container {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      
+  }
+  .navigation {
+      width: 97.7778rem;
+      height: 151px;
+      margin-left: 158px;
+      margin-right: 107px;
+      margin-top: 3.5556rem;
+      border-bottom: 1px solid grey;
+      
+  }
+
+  .nav-1 {
+      width: 80%;
+      margin-left: 24.1667rem;
+      display: flex;
+      justify-content: space-between;
+      float:left;
+      
+        }
+
+   
+        .nav-1 ul {
+            margin-left:auto;
+            /* margin-left: 15.4444rem; */
+            /* width: 100%; */
+        }
+
+    .nav-1 li {
+        /* display: flex; */
+        list-style-type: none;
+        display: inline-block;
+        padding-right: 2.1111rem;
+        /* display: flex; */
+      /* justify-content: space-between; */
+        flex-direction: row;
+         /* flex-flow:nowrap; */
+      
+ 
+        
+    } 
+    .nav-1 li a {
+        font-size: 1.3333rem;
+        
+
+    }
+     
+    .nav-1 li a:hover{
+        border-bottom: 5px solid black; 
+        padding-bottom: 0.5556rem;
+        cursor: pointer;
+        
+    }
+
+    .nav-1 li a:link {
+        text-decoration: none;
+        color: black;
+
+    }
+
+    .nav-2 {
+        float:left;
+        width: 20%;
+    }
+
+    .language {
+        
+        display: flex;
+        justify-content: space-between;
+        float: right;
+        width: 21.5rem;
+          }
+        
+    
+
+    .language li {
+        width: 3.8889rem;
+        font-size: 1.3333rem;
+        list-style-type: none;
+        display: inline-block;
+        /* margin-left: auto;   */
+        /* margin-right: 50.0004px; */
+    }
+
+    .nav-2 ul {
+        width: 12.5rem;
+    }
+
+    .search {
+        width: 11.1111rem;
+        /* margin-right: 5.9444rem; */
+        float: right;
+    }
+
+    .btn {
+        width: 3.6111rem;
+        height: 3.6111rem;
+        background: #446CCD 0% 0% no-repeat padding-box;
+    }
+        
+    
+    .search i {
+        font-size: 1.0556rem;
+        color:white;
+        margin: 0;
+        position: relative;
+        top: 1.0556rem;
+        left: 1.3889rem;      
+
+    }
+
+    .language li a:hover {
+        border-bottom: 5px solid black; 
+        padding-bottom: 0.5556rem;
+        cursor: pointer;
+        
+
+    }
+    .btn:hover {
+        cursor: pointer;
+    }
+    
+    
+  
+ 
+
+ 
