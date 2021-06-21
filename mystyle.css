@@ -16,9 +16,9 @@ html {
       
   }
   .navigation {
-      width: 97.7778rem;
+      width: 1600px;
       height: 151px;
-      margin-left: 158px;
+      margin-left: 160px;
       margin-right: 107px;
       margin-top: 3.5556rem;
       border-bottom: 1px solid grey;
@@ -26,10 +26,10 @@ html {
   }
 
   .nav-1 {
-      width: 80%;
-      margin-left: 24.1667rem;
-      display: flex;
-      justify-content: space-between;
+      width: 1437px;
+      margin-left: 274px;
+      /* display: flex; */
+      /* justify-content: space-between; */
       float:left;
       
         }
@@ -74,22 +74,22 @@ html {
     }
 
     .nav-2 {
+        width: 163px;
         float:left;
-        width: 20%;
     }
 
     .language {
         
         display: flex;
         justify-content: space-between;
-        float: right;
-        width: 21.5rem;
+        float: left;
+        /* width: 21.5rem; */
           }
         
     
 
     .language li {
-        width: 3.8889rem;
+        width: 70px;
         font-size: 1.3333rem;
         list-style-type: none;
         display: inline-block;
@@ -98,11 +98,11 @@ html {
     }
 
     .nav-2 ul {
-        width: 12.5rem;
+        /* width: 163px; */
     }
 
     .search {
-        width: 11.1111rem;
+        width: 3.6111rem;
         /* margin-right: 5.9444rem; */
         float: right;
     }
