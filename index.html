@@ -12,42 +12,68 @@
 </head>
 <body>
     <div class='container'>
-        <div class='navigation'>
-            <div class='nav-1'>
-                <ul>
-                    <li><a href="kazkas">Services</a></li>
-                    <li><a href="kazkas">About us</a></li>
-                    <li><a href='kazkas'>Our Team</a></li>
-                    <li><a href='kazkas'>Testimonials</a></li>
-                    <li><a href='kazkas'>News</a></li>
-                    <li><a href='kazkas'>Contacts</a></li>
-                </ul>
-
-
-            </div>
-
-             <div class='nav-2'>
-                <div class='language'>
-                    <ul>
-                        <li><a>EN</a></li>
-                        <li><a>RU<a></li>
-                    </ul>              
+        <div class='navbar-component'>
+            <div class='navbar area'>
+             <nav id='navigation' class='list-1'>
                 
-               
+                   <a href='kazkas' class='item -link'>Services</a>
+                   <a href='kazkas' class='item -link'>About us</a>
+                    <a href='kazkas' class='item -link'>Our Team</a>
+                    <a href='kazkas' class='item -link'>Testimonials</a>
+                    <a href='kazkas' class='item -link'>News</a>
+                    <a href='kazkas' class='item -link'>Contacts</a>
 
-                <div class='search'>
-                    <div class='btn'>
-                        <i class="fa fa-search" aria-hidden="true"></i>
-                    </div>
-                    
-                </div>
+                    </nav>
+                    <nav id='navigation' class='list-2'>
+                    <a href='kalbaEN' class='item -link'>EN</a>
+                    <a href='kalbaRU' class='item -link'>RU</a>               
+                     <span class='inquire'>
+                        <i class='fa fa-search'></i>
+                     </span>
+
+             </nav>
+
+             <button id='hamburger' class='toggle'>
+                 <span class='icon'></span>
+
+             </button>
 
             </div>
-                   
-         </div>
+                    
         </div>
 
+    <div class='main'>
+        <div class='msg-box'>
+            <h1>404 Error</h1>
+            <p>The page you were looking for couldn't be found. The page could be removed or you misspelled the word while searching for it. Maybe try a search?</p>
+                <div class='news'>
+            <input type='text' placeholder='Search'>
+             <i class='fa fa-search'></i>
+                </div>
+             <div class='btn'>
+                <button><b href='kazkas'>Back to Home</button>
+             </div>
+        </div>
     </div>
+
+
+    </div>
+                   
+         </div>
+
+         <script>
+             document.querySelector('.toggle').onclick = function() {
+            this.classList.toggle('active');
+            document.querySelector('.list-1').classList.toggle('active');
+            document.querySelector('.list-2').classList.toggle('active');
+        }
+
+
+
+         </script>
+        
+
+    
     
 </body>
 </html>
