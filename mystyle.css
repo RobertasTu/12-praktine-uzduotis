@@ -26,6 +26,10 @@ html {
       
   }
 
+  a .list-2 .kalbaRU {
+      color: #06060680;
+  }
+
   .navbar-component {
       /* width: 100%; */
       margin-left: 8.7778rem;
@@ -42,9 +46,9 @@ html {
       margin-right: 5.9444rem; */
       padding-left: 15.3333rem;
       border-bottom: 4px solid #06060626;
-      height: 147px;
+      height: 8.1667rem;
       font-size:1.3333rem;
-      background-color: transparent;
+      /* background-color: grey; */
       
      
      
@@ -80,6 +84,7 @@ html {
       color: #060606;
       border-bottom-color:black;
       box-shadow: 0 4px 8px grey;
+
   }
 
   .inquire {
@@ -92,7 +97,7 @@ html {
       position: relative;
       border-radius: 6px 16px;
   }
- .fa {
+ .inquire .fa {
     height: 1.0556rem;
     color: white;
     top: 1.1rem;
@@ -104,6 +109,7 @@ html {
      box-shadow: 0 4px 8px #446CCD;
      opacity: 1;
      cursor: pointer;
+     
  }
  .icon {
      position: relative;
@@ -157,13 +163,13 @@ html {
     width: 100%;
     margin: auto;
     /* background-color: rgb(192, 158, 22); */
+    /* border-bottom: 4px solid black; */
    
-    
 }
 
 .msg-box {
-    width: 43.1667rem;
-    height: 24.3333rem;
+    width: 777.0006px;
+    /* height: 24.3333rem; */
     margin-left: 8.7778rem;
     margin-top: 7.6111rem;
     /* background-color: blueviolet; */
@@ -180,11 +186,12 @@ p {
 }
 .news {
     display: block;
+    width: 43.0556rem;
+    margin: 0 auto;
 }
 
 .news input[type=text] {
-    
-    width: 43.0556rem;
+    width: 100%;
     font-size: 1.1111rem;
     margin-top: 2.8333rem;
     color: #6C6C6C;
@@ -195,14 +202,17 @@ p {
     
 }
 
-.news i {
+.news .fa {
     position: absolute;
     color: #060606;
-    height: 19px;
+    height: 1.0556rem;
+    top: 36.8889rem;
+    left: 50.7222rem;
+    margin: 0 auto;
 
 }
 
-button {
+.btn button {
     width: 11.6667rem;
     height: 3.6111rem;
     text-decoration: none;
@@ -210,16 +220,54 @@ button {
     background-color: #446CCD;
     opacity: 1;
     font-size: 1.1667rem;
-    color: #FFFFFF;
+    color: #FFFFFF !important;
     border-radius: 6px 16px;
-
-
 }
 
-button:hover {
+.btn button a {
+    color: white;
+}
+
+.btn button:hover {
     cursor: pointer;
     box-shadow: 0 4px 8px #446CCD;
 }
+
+.bott {
+    width: 100%;
+    margin: auto;
+    margin-top: 156px;
+    /* background-color: gray; */
+}
+
+.footer {
+    display: flex;
+    margin-left:158px;
+    margin-right:107px;
+    /* background-color: rgb(228, 28, 28); */
+    padding-top: 62px;
+    padding-bottom: 62px;
+    border-top: 4px solid #06060626;
+    
+}
+.desinenbl {
+    width: 100%;
+    /* background-color: hotpink; */
+}
+
+.footer .desinenbl .fa {
+   display: block;
+   padding-left: 25px;
+   padding-right: 0px;
+   margin-right: 0px;
+   float: right;
+   font-size: 1.0556rem;
+}
+
+
+
+
+
 
 
 @media screen and (max-width: 1805px) {
@@ -244,7 +292,7 @@ button:hover {
 }
 
 
-@media screen and (max-width: 1266px) {
+@media screen and (max-width: 1289px) {
     
     .toggle {
         display: block;
