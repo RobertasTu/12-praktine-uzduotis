@@ -12,10 +12,8 @@ html {
   }
 
   .container {
-      width: 100%;
-      margin: auto;
-      /* margin-left: 8.7778rem; 
-     margin-right: 5.9444rem; */
+     margin-left: 8.7778rem; 
+     margin-right: 5.9444rem;
           
   }
 
@@ -31,10 +29,13 @@ html {
   }
 
   .navbar-component {
-      /* width: 100%; */
-      margin-left: 8.7778rem;
-      margin-right: 5.9444rem;
+      /* display: flex; */
+      
+      padding-left: 15.3333rem;
+      /* margin-left: 8.7778rem; */
+      /* margin-right: 5.9444rem; */
       /* box-shadow:cadetblue; */
+      border-bottom: 4px solid #06060626;
   }
 
   .area {
@@ -42,20 +43,15 @@ html {
       flex-flow: row wrap;
       align-items: stretch;
       justify-content: space-between;
-      /* margin-left: 8.7778rem;
-      margin-right: 5.9444rem; */
-      padding-left: 15.3333rem;
-      border-bottom: 4px solid #06060626;
-      /* height: 8.1667rem; */
-      font-size:1.3333rem;
-      /* background-color: grey; */
-      padding-top: 43px;
-      padding-bottom:43px;
+      /* margin-right: 5.9444rem; */
+      /* padding-left: 275.9994px; */
       
-     
-     
-
+      font-size:1.3333rem;
+      padding-top: 3.5556rem;
+      padding-bottom: 2.9444rem;
+      
   }
+
   .list-1  {
       display: flex;
       
@@ -73,10 +69,7 @@ html {
       padding-right: 1.3889rem;
       text-transform: uppercase;
       font-size: 1.3333rem;
-      /* line-height: 8.9444rem; */
-      /* height: 147.9996px; */
-      margin: auto;
-      
+           
   }
   .item.-link {
       border-bottom: 5px solid transparent;
@@ -91,7 +84,7 @@ html {
 
   .inquire {
       display: block;
-      /* margin-top: 2.1667rem; */
+      margin-top: -0.833rem;
       margin-right: 0;
       height: 3.6111rem;
       width: 3.6111rem;
@@ -115,6 +108,7 @@ html {
  }
  .icon {
      position: relative;
+     right: 4.2222rem;
  }
 
  
@@ -170,9 +164,8 @@ html {
 }
 
 .msg-box {
-    width: 777.0006px;
+    width: 41.6%;
     /* height: 24.3333rem; */
-    margin-left: 8.7778rem;
     margin-top: 7.6111rem;
     /* background-color: blueviolet; */
     /* border-top: 4px solid grey; */
@@ -180,6 +173,7 @@ html {
 
 h1 {
     font-size: 4.2222rem;
+    /* background-color: sandybrown; */
 }
 
 p {
@@ -188,8 +182,8 @@ p {
 }
 .news {
     display: block;
-    width: 43.0556rem;
-    margin: 0 auto;
+    width: 100%;
+    /* margin: 0 auto; */
     position:relative;
 }
 
@@ -209,9 +203,9 @@ p {
     position: absolute;
     color: #060606;
     height: 1.0556rem;
-    top: 84px;
-    left: 754px;
-    margin: 0 auto;
+    top: 4.6667rem;
+    right: 1.3889rem;
+    
 
 }
 
@@ -219,7 +213,7 @@ p {
     width: 11.6667rem;
     height: 3.6111rem;
     text-decoration: none;
-    margin-top: 69px;
+    margin-top: 3.8333rem;
     background-color: #446CCD;
     opacity: 1;
     font-size: 1.1667rem;
@@ -239,17 +233,16 @@ p {
 .bott {
     width: 100%;
     margin: auto;
-    margin-top: 156px;
+    margin-top: 8.6667rem;
     /* background-color: gray; */
 }
 
 .footer {
     display: flex;
-    margin-left:158px;
-    margin-right:107px;
+    /* margin-right:5.9444rem; */
     /* background-color: rgb(228, 28, 28); */
-    padding-top: 62px;
-    padding-bottom: 62px;
+    padding-top: 3.4444rem;
+    padding-bottom: 3.4444rem;
     border-top: 4px solid #06060626;
     
 }
@@ -260,56 +253,136 @@ p {
 
 .footer .desinenbl .fa {
    display: block;
-   padding-left: 25px;
+   padding-left: 1.3889rem;
    padding-right: 0px;
    margin-right: 0px;
    float: right;
    font-size: 1.0556rem;
 }
 
+.pilka {
+    background-color: grey;
+}
+
+.zalia {
+    background-color: green;
+}
+
+.raudona {
+    background-color: red;
+}
 
 
 
 
 
 
-@media screen and (max-width: 1821px) {
-.area {
+@media screen and (max-width: 1822px) {
+.navbar-component {
     padding-left: 0;
-   
+    margin-right: 5.5556rem;
+} 
 }
+@media screen and (max-width: 1647px) {
+    .navbar-component {
+        margin-left: 0rem;
+        margin-right: 0rem;
+        } 
+    }
 
-}
+    @media screen and (max-width: 1582px) {
+        .container {
+            margin-left: 2.7778rem;
+            margin-right: 2.7778rem;
+        }
 
-@media screen and (max-width: 1599px) {
-  .area {
-      margin-left: 0;
-      margin-right: 0;
-  }  
+    }
+
+    @media screen and (max-width: 1381px) {
+        .item {
+            padding-left: 0.5rem;
+            padding-right: 0.5rem;
+        }
+
+
+
+    @media screen and (max-width: 1357px) {
+        .item {
+            padding-left: 0.5556rem;
+            padding-right: 0.5556rem;
+        }
+
+    }
+
+
+/* 
+
+@media screen and (max-width: 1546px) {
+ 
   .navbar-component {
-      margin-right: 0;
-      margin-left: 0;
+      width: 90%;
+      position: absolute;
+      background-color: white;
+      margin-left:50px;
+      margin-right: 25px;
   }
-  
+  .msg-box {
+    margin-top: 308px;
+    margin-left:50px;
+    
+  }
+    .footer {
+     margin-left: 50px;
+    }
+
+}
+
+@media screen and (max-width: 1421px) {
+    .navbar-component {
+        width: 100%;
+    }
+    .area {
+        margin-right: 5.5556rem;
+    }
 
 }
 
 
-@media screen and (max-width: 1289px) {
+@media screen and (max-width: 1393px) {
+    .area{
+        margin-left: 100px;
+    }
+
+    .navbar-component {
+        width: 100%;
+        margin-left: 5px;
+        margin-right: 5px;
     
-    .toggle {
+    }
+}
+ */
+
+
+
+
+@media screen and (max-width: 1141px) {
+       .toggle {
         display: block;
         position: absolute;
         right: 0;
         top: 2.7222rem;
 
         }
+    }
 
     .area {
         display: block;
         padding: 0px;
-        margin: auto;
-             
+        /* margin: auto; */
+        width: 100%;
+        position: absolute;
+        background-color: white;
+        margin-top: 133px; 
     }
 
     .inquire {
@@ -331,13 +404,10 @@ p {
         display: flex;
         flex-flow: column wrap;
     }
+    .msg-box {
+        width: 72%;
+        margin-top: 12.9444rem;
+    }
    
-
 }
     
-@media screen and (max-width: 1108px) { 
-    .msg-box {
-        margin-left: 20px;
-    }
-}
- 
