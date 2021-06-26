@@ -46,9 +46,11 @@ html {
       margin-right: 5.9444rem; */
       padding-left: 15.3333rem;
       border-bottom: 4px solid #06060626;
-      height: 8.1667rem;
+      /* height: 8.1667rem; */
       font-size:1.3333rem;
       /* background-color: grey; */
+      padding-top: 43px;
+      padding-bottom:43px;
       
      
      
@@ -89,7 +91,7 @@ html {
 
   .inquire {
       display: block;
-      margin-top: 2.1667rem;
+      /* margin-top: 2.1667rem; */
       margin-right: 0;
       height: 3.6111rem;
       width: 3.6111rem;
@@ -188,6 +190,7 @@ p {
     display: block;
     width: 43.0556rem;
     margin: 0 auto;
+    position:relative;
 }
 
 .news input[type=text] {
@@ -198,7 +201,7 @@ p {
     background-color: #F8F8F8;
     border: transparent;
     padding: 1.6667rem 1.2778rem 1.6111rem;
-    position: relative;
+    /* position: relative; */
     
 }
 
@@ -206,8 +209,8 @@ p {
     position: absolute;
     color: #060606;
     height: 1.0556rem;
-    top: 36.8889rem;
-    left: 50.7222rem;
+    top: 84px;
+    left: 754px;
     margin: 0 auto;
 
 }
@@ -270,7 +273,7 @@ p {
 
 
 
-@media screen and (max-width: 1805px) {
+@media screen and (max-width: 1821px) {
 .area {
     padding-left: 0;
    
@@ -332,7 +335,9 @@ p {
 
 }
     
-  
- 
-
+@media screen and (max-width: 1108px) { 
+    .msg-box {
+        margin-left: 20px;
+    }
+}
  
