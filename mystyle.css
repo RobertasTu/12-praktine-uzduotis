@@ -9,6 +9,7 @@ html {
     font-family: 'Poppins', sans-serif;
     margin: 0 auto;
     color:#060606;
+    
   }
 
   .container {
@@ -25,7 +26,7 @@ html {
   }
 
   a .list-2 .kalbaRU {
-      color: #06060680;
+      color: #060606c9;
   }
 
   .navbar-component {
@@ -73,11 +74,12 @@ html {
   }
   .item.-link {
       border-bottom: 5px solid transparent;
+      border-radius: 6px 6px 6px 6px;
   }
 
   .item.-link:hover {
       color: #060606;
-      border-bottom-color:black;
+      border-bottom-color:#060606;
       box-shadow: 0 4px 8px grey;
 
   }
@@ -157,14 +159,14 @@ html {
 .main {
     display: flex;
     width: 100%;
-    margin: auto;
+    /* margin: auto; */
     /* background-color: rgb(192, 158, 22); */
     /* border-bottom: 4px solid black; */
    
 }
 
 .msg-box {
-    width: 41.6%;
+    width: 53.3%;
     /* height: 24.3333rem; */
     margin-top: 7.6111rem;
     /* background-color: blueviolet; */
@@ -280,7 +282,7 @@ p {
 @media screen and (max-width: 1822px) {
 .navbar-component {
     padding-left: 0;
-    margin-right: 5.5556rem;
+    margin-right: 0rem;
 } 
 }
 @media screen and (max-width: 1647px) {
@@ -303,6 +305,10 @@ p {
             padding-left: 0.5rem;
             padding-right: 0.5rem;
         }
+        .msg-box {
+            width: 80%;
+        }
+    }
 
 
 
@@ -315,54 +321,6 @@ p {
     }
 
 
-/* 
-
-@media screen and (max-width: 1546px) {
- 
-  .navbar-component {
-      width: 90%;
-      position: absolute;
-      background-color: white;
-      margin-left:50px;
-      margin-right: 25px;
-  }
-  .msg-box {
-    margin-top: 308px;
-    margin-left:50px;
-    
-  }
-    .footer {
-     margin-left: 50px;
-    }
-
-}
-
-@media screen and (max-width: 1421px) {
-    .navbar-component {
-        width: 100%;
-    }
-    .area {
-        margin-right: 5.5556rem;
-    }
-
-}
-
-
-@media screen and (max-width: 1393px) {
-    .area{
-        margin-left: 100px;
-    }
-
-    .navbar-component {
-        width: 100%;
-        margin-left: 5px;
-        margin-right: 5px;
-    
-    }
-}
- */
-
-
 
 
 @media screen and (max-width: 1141px) {
@@ -373,40 +331,48 @@ p {
         top: 2.7222rem;
 
         }
-    }
+
+    
 
     .area {
         display: block;
-        padding: 0px;
-        /* margin: auto; */
         width: 100%;
         position: absolute;
         background-color: white;
-        margin-top: 133px; 
+        
     }
 
     .inquire {
-        margin: auto;
+        margin-top: 4.4444rem;
     }
 
     .list-1, .list-2 {
         display: none;
         flex-flow: column wrap;
+        line-height: 2rem;
         
     }
 
       .list-1.active {
         display: flex;
         flex-flow: column wrap;
+        margin-top: 2.5rem;
+        padding-bottom: 1.1111rem;
     }
 
     .list-2.active {
         display: flex;
         flex-flow: column wrap;
+        padding-bottom: 1.6667rem;
     }
     .msg-box {
-        width: 72%;
+        width: 90%;
         margin-top: 12.9444rem;
+    }
+    .inquire {
+        display: flex;
+        float: left;
+        position: absolute;
     }
    
 }
