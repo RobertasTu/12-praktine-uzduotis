@@ -92,20 +92,22 @@ body {
 }
 
 .leftArea {
-    width: 33.40%;
+    width: 21.52%;
     display: block;
+    margin-right: 206px;
     /* background-color: burlywood; */
 
 }
 .lnavbar {
      
-    width: 64.75%;
+    width: 100%;
     padding-bottom: 2.2rem;
-    border-bottom: 2px solid #969696;
+    border-bottom: 1px solid #969696;
 }
 
 .src1 {
     display: block;
+    /* font-family: SourceSansPro-Black; */
     width: 100%;
     font-size: 25.0008px;
     color: #060606;
@@ -127,8 +129,8 @@ input {
 .fa {
     display:block;
     float: right;
-    color: #060606;
-    opacity: 1;
+    color: #969696;
+    /* opacity: 1; */
     margin-right: 5px;
 
 }
@@ -170,10 +172,60 @@ img  {
     
 }
 
+.comments {
+    width: 100%;
+    /* margin-right: 15px; */
+    /* background-color:chartreuse; */
+}
+
+.com-container {
+    display: grid;
+    width: auto;
+    
+}
+
+h4 {
+    font-size: 18px;
+    color: #787878;
+}
+
+.comment {
+    font-size: 14px;
+    color: #969696;
+}
+
+.com-1, .com-2, .com-3 {
+    border-bottom: 2px solid #E8E8E8;
+    padding-bottom: 14px;
+}
+
+.archive {
+ display: block;
+ float: left;
+ 
+
+}
+ul {
+ padding-left: 16px;
+ font-size: 18px;
+ color: #787878;
+ line-height: 40px;
+ 
+
+}
+
+button {
+    display: inline-block;
+    font-size: 13px;
+    color: #969696;
+    border: none;
+    text-decoration: none;
+}
+
 
 
 .rightArea {
-   width: 63.7%;
+   width: 66.78%;
    display: block;
    background-color: aquamarine; 
    
