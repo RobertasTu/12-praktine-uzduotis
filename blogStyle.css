@@ -7,7 +7,7 @@ body {
     max-width: 1920px;
     font-family: 'Source Sans Pro', sans-serif;
     margin: 0 auto;
-    
+        
 }
 
 .container {
@@ -132,7 +132,12 @@ input {
     color: #969696;
     /* opacity: 1; */
     margin-right: 5px;
+    margin-top: 2px;
 
+}
+
+.fa:hover {
+    cursor: pointer;
 }
 
 h3 {
@@ -150,7 +155,7 @@ h3 {
     grid-row-gap: 1.6667rem;
 }
 
-p{
+p {
     margin-top: 0;
     color: #787878;
     font-size: 18px;
@@ -165,7 +170,7 @@ p{
 }
 
 
-img  {
+.post-item  img{
     width: 87px;
     height: 87px;
     padding: 5px 0px 5px 0px;
@@ -199,7 +204,7 @@ h4 {
     padding-bottom: 14px;
 }
 
-.archive {
+.arc {
  display: block;
  float: left;
  
@@ -222,14 +227,44 @@ button {
     text-decoration: none;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 
 
 .rightArea {
    width: 66.78%;
    display: block;
-   background-color: aquamarine; 
+   /* background-color: aquamarine;  */
    
 }
+
+.main-item img {
+    width: 527px;
+    height: 326px;
+    object-fit: cover;
+}
+.addition {
+    display: flex;
+
+}
+
+.addition p{
+    display: block;
+    padding-right: 51px;
+    font-size: 13px;
+    color: #969696;
+    opacity: 100%;
+}
+
+.description {
+    font-size: 18px;
+    color: #787878;
+    opacity: 100%;
+}
+
+
 
 .footer {
     width: 100%;
@@ -243,4 +278,16 @@ button {
     margin-right: 4.5417rem;
     background-color: darkblue;
 
+}
+
+.main-cont {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 60px;
+    row-gap: 32px;
+
+}
+h2 {
+    font-size: 36px;
+    padding-bottom: 62px;
 }
