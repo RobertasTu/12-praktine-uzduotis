@@ -10,6 +10,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
 
 </head>
 <body>
@@ -32,7 +35,7 @@
              <div class='leftArea'>
                     <div class='lnavbar'>
                         <span class='src1'>Search</span><br>
-                            <input type='text' placeholder='Type to search'>
+                            <input type='text' placeholder='Type to search' class='first'>
                                 <i class='fa fa-search'></i>
                             
                     </div>
@@ -124,9 +127,9 @@
                         <div class='main-item'><img src='img\6namas.jpg'>
                             <h2>Neque porro quisquam est qui dolorem ipsum quia</h2>
                             <div class='addition'>
-                                <p>By Admin</p>
-                                <p>0 Comments</p>
-                                <p>Uncategorized</p>
+                                <p class='under'>By Admin</p>
+                                <p class='under'>0 Comments</p>
+                                <p class='under'>Uncategorized</p>
                             </div>
                             <span class='description'>What happens when the thing that might save you is also the thing that might destroy the world...</span>
                         
@@ -134,9 +137,9 @@
                         <div class='main-item'><img src='img\7namas.jpg'>
                             <h2>Dolor sit amet, consectetur, adipisci velit...</h2>
                             <div class='addition'>
-                                <p>By Admin</p>
-                                <p>0 Comments</p>
-                                <p>Uncategorized</p>
+                                <p class='under'>By Admin</p>
+                                <p class='under'>0 Comments</p>
+                                <p class='under'>Uncategorized</p>
                             </div>
                             <span class='description'>What happens when the thing that might save you is also the thing that might destroy the world...</span>
                         
@@ -144,9 +147,9 @@
                         <div class='main-item'><img src='img\8namas.jpg'>
                             <h2>Neque porro quisquam est qui dolorem ipsum quia</h2>
                             <div class='addition'>
-                                <p>By Admin</p>
-                                <p>0 Comments</p>
-                                <p>Uncategorized</p>
+                                <p class='under'>By Admin</p>
+                                <p class='under'>0 Comments</p>
+                                <p class='under'>Uncategorized</p>
                             </div>
                             <span class='description'>What happens when the thing that might save you is also the thing that might destroy the world...</span>
                         
@@ -155,9 +158,9 @@
                         <div class='main-item'><img src='img\9namas.jpg'>
                             <h2>Dolor sit amet, consectetur, adipisci velit...</h2>
                             <div class='addition'>
-                                <p>By Admin</p>
-                                <p>0 Comments</p>
-                                <p>Uncategorized</p>
+                                <p class='under'>By Admin</p>
+                                <p class='under'>0 Comments</p>
+                                <p class='under'>Uncategorized</p>
                             </div>
                             <span class='description'>What happens when the thing that might save you is also the thing that might destroy the world...</span>
                         
@@ -165,9 +168,9 @@
                         <div class='main-item'><img src='img\10namas.jpg'>
                             <h2>Neque porro quisquam est qui dolorem ipsum quia</h2>
                             <div class='addition'>
-                                <p>By Admin</p>
-                                <p>0 Comments</p>
-                                <p>Uncategorized</p>
+                                <p class='under'>By Admin</p>
+                                <p class='under'>0 Comments</p>
+                                <p class='under'>Uncategorized</p>
                             </div>
                             <span class='description'>What happens when the thing that might save you is also the thing that might destroy the world...</span>
                         
@@ -175,9 +178,9 @@
                         <div class='main-item'><img src='img\11namas.jpg'>
                             <h2>Dolor sit amet, consectetur, adipisci velit...</h2>
                             <div class='addition'>
-                                <p>By Admin</p>
-                                <p>0 Comments</p>
-                                <p>Uncategorized</p>
+                                <p class='under'>By Admin</p>
+                                <p class='under'>0 Comments</p>
+                                <p class='under'>Uncategorized</p>
                             </div>
                             <span class='description'>What happens when the thing that might save you is also the thing that might destroy the world...</span>
                             
@@ -185,9 +188,9 @@
                         <div class='main-item'><img src='img\12namas.jpg'>
                             <h2>Neque porro quisquam est qui dolorem ipsum quia</h2>
                             <div class='addition'>
-                                <p>By Admin</p>
-                                <p>0 Comments</p>
-                                <p>Uncategorized</p>
+                                <p class='under'>By Admin</p>
+                                <p class='under'>0 Comments</p>
+                                <p class='under'>Uncategorized</p>
                             </div>
                             <span class='description'>What happens when the thing that might save you is also the thing that might destroy the world...</span>
                         
@@ -196,9 +199,9 @@
                         <div class='main-item'><img src='img\13namas.jpg'>
                             <h2>Dolor sit amet, consectetur, adipisci velit...</h2>
                             <div class='addition'>
-                                <p>By Admin</p>
-                                <p>0 Comments</p>
-                                <p>Uncategorized</p>
+                                <p class='under'>By Admin</p>
+                                <p class='under'>0 Comments</p>
+                                <p class='under'>Uncategorized</p>
                             </div>
                             <span class='description'>What happens when the thing that might save you is also the thing that might destroy the world...</span>
                         
@@ -208,28 +211,37 @@
                        
                  
                   <div class='pageList'>
-                    <a href="#">&laquo;</a>
-                    <a href="#">1</a>
-                    <a href="#" class="active">2</a>
-                    <a href="#">3</a>
-                    <a href="#">4</a>
-                    <a href="#">5</a>
-                    <a>...</a>
-                    <a href="#">10</a>
-                    <a href="#">11</a>
-
-                    <a href="#">&raquo;</a>
-
-
+                      <ul>
+                    <li><button>1</button></li>
+                    <li><button>2</button></li>
+                    <li><button>3</button></li>
+                    <li><button>4</button></li>
+                    <li><button>5</button></li>
+                    <li><span>...</span></li>
+                    <li><button>10</button></li>
+                    <li><button>11</button></li>
+                    <li><button><i class="material-icons">&#xe8e4;</i></button></li>
+                     </ul>
 
                   </div>
+                
 
              </div>
          </div>
         </div>
             <div class='footer'>
                 <div class='bNavbar'>
-                Tekstas
+                <div class='bNavbar-item1'><span>Create new digital future<span></div>
+                <div class='bNavbar-item2'><span class='subs'>Subscribe our</span><span class='yellow'>newsletter</span></div>
+                <div class='bNavbar-item3'><span class='subs'>Contact us</span><br>
+                                            <span>(052) 611-5711<span><br>
+                                            <span> name.surname@companyname.com</span>
+                </div>
+                <div class='bNavbar-item4'><input type='text' placeholder='E-mail'></div>
+                <div class='bnavbar-item5'>
+                    <button>Subscribe
+                    <i class="fa-solid fa-right-long"></i></button>
+                </div>
                 </div>
             </div>
 
