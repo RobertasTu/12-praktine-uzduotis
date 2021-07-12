@@ -152,7 +152,7 @@ h3 {
     grid-row-gap: 1.6667rem;
 }
 
-p {
+.under p {
     margin-top: 0;
     color: #787878;
     font-size: 1rem;
@@ -272,6 +272,8 @@ button:hover {
 
 
 
+
+
 .footer {
     width: 100%;
     display: flex;
@@ -322,6 +324,7 @@ button:hover {
 
 .yellow {
    color: #F5A623; 
+   font-size: 36px;
 }
 
 .subs {
@@ -374,28 +377,52 @@ h2 {
 }
 
 
-.pageList ul {
+.pageList {
     display: inline-block;
     padding-top: 1.7778rem;
     padding-bottom: 9.4444rem;
     list-style: none;
+    position: relative;
+    
 }
 
-/* .pagelist ul li {
-    display: block;
-    float: left;
-    color: #060606;
+.pglist_i {
     font-size: 0.8889rem;
+    font-family: SourceSansPro-Regular;
     text-decoration: none;
-    padding: 8px 16px;
+    color: #060606;
+    padding: 8px 14px;
     transition: background-color .3s;
     border-radius: 5px;
-    background-color: blue;
-   
 
-     */
+}
 
-/* } */
+
+
+i.material-icons {
+    position: absolute;
+    font-size: 0.8889rem;
+    transition: background-color .3s;
+    border-radius: 5px;
+    padding: 6px 12px;
+
+}
+
+/* i.material-icons:hover {
+    background-color: #D8D8D8;
+} */
+
+
+a.pglist_i.active {
+    background-color: #060606;
+    color: #FFFFFF;
+}
+
+a.pglist_i:hover:not(.active) {
+    background-color: #D8D8D8;
+}
+
+
 
 /* .pageList a {
     color: #060606;
@@ -416,7 +443,4 @@ h2 {
     background-color: #ddd;
 }
 
-.pagelist a i {
-    color: #060606;
-     
-} */
+
