@@ -299,6 +299,9 @@ button:hover {
 .bNavbar-item5 {
     grid-area: nmb5;
 }
+.bNavbar-item6 {
+    grid-area: nmb6;
+}
 
 .bNavbar {
     width: 100%;
@@ -310,8 +313,8 @@ button:hover {
     grid-template-columns: 25.1% 24.9% 16.64% 36.17%;
     grid-template-areas: 
                          'nmb1 nmb2 nmb2 nmb3'
-                         'nmb1 nmb4 nmb5 nmb3'
-                         'nmb1 nmb4 nmb5 nmb3';
+                         'nmb1 nmb4 nmb5 nmb6'
+                         'nmb1 nmb4 nmb5 nmb6';
 }
 
 .bNavbar-item1 {
@@ -342,26 +345,43 @@ button:hover {
 .bNavbar-item4 {
     color: #FFFFFF;
     font-size: 0.8889rem;
-    margin-right: 3.3333rem;
-    /* border-bottom: 2px solid #ffffff; */
+    margin-right: 6.3333rem;
+    border-bottom: 2px solid #ffffff;
     text-decoration: none;
-    
+    padding-top: 19px;    
     
 }
+
 .bNavbar-item4 input {
     border: transparent;
     background-color: #060606;
-    width: 83%;
+    width: 100%;
     padding-bottom: 5px;
-    border-bottom: 2 px solid #FFFFFF;
+    color: #ffffff;
+    font-size: 16px;
+    /* border-bottom: 2 px solid #FFFFFF; */
 }
 
-.bnavbar-item5 button {
+.bNavbar-item5 button {
     text-decoration: none;
     font-size: 16px;
     background-color: transparent;
-    font-family: SourceSansPro-Black;
+    /* font-family: SourceSansPro-Black; */
     color: #ffffff;
+    border: none;
+    padding-top: 19px;
+}
+
+.bNavbar-item5 i.material-icons {
+    color: #ffffff;
+    padding: 2px 12px;
+}
+
+.bNavbar-item6 {
+    font-size: 0.8889rem;
+    color: #ffffff;
+    opacity: 100%;
+    PADDING-TOP: 20PX;
 }
 
 .main-cont {
@@ -422,6 +442,22 @@ a.pglist_i:hover:not(.active) {
     background-color: #D8D8D8;
 }
 
+.media-icons {
+    width: 100%;
+    display: inline-block;
+     font-size: 1.1111rem;
+    margin-left: 4.3333rem;
+    margin-right: 4.5417rem;
+    padding-top: 2.7222rem;
+    padding-bottom: 70px;
+}
+
+.media-icons i {
+    display: block;
+    color: #ffffff;
+    opacity: 100%;
+    padding-right: 45px;
+}
 
 
 /* .pageList a {
