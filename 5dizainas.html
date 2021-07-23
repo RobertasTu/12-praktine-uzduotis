@@ -43,24 +43,24 @@
                     <h3>Recent posts</h3>
                     <div class='post-container'>
                         <div class='post-item'><img src='img\1namas.jpg'></div>
-                        <div class='post-item-2'><p class='lspost'>Neque porro quisquam est qui dolorem ipsum quia</p><br>
-                            <span class='date'>12 May, 2019</span>
+                        <div class='post-item-2'><span class='lspost'>Neque porro quisquam est qui dolorem ipsum quia</span><br>
+                            <p class='date'>12 May, 2019</p>
                         </div>
                         <div class='post-item'><img src='img\2namas.jpg'></div>
-                        <div class='post-item-4'><p class='lspost'>Dolor sit amet, consectetur, adipisci velit...</p><br>
-                            <span class='date'>12 May, 2019</span>
+                        <div class='post-item-4'><span class='lspost'>Dolor sit amet, consectetur, adipisci velit...</span><br>
+                            <p class='date'>12 May, 2019</p>
                         </div>
                         <div class='post-item'><img src='img\3namas.jpg'></div>
-                        <div class='post-item-6'><p class='lspost'>There are many variations of passages of Lorem</p><br>
-                            <span class='date'>12 May, 2019</span>
+                        <div class='post-item-6'><span class='lspost'>There are many variations of passages of Lorem</span><br>
+                            <p class='date'>12 May, 2019</p>
                         </div>
                         <div class='post-item'><img src='img\4namas.jpg'></div>
-                        <div class='post-item-8'><p class='lspost'>Lorem ipsum dolor sit amet, consectetur adipiscing</p><br>
-                            <span class='date'>12 May, 2019</span>
+                        <div class='post-item-8'><span class='lspost'>Lorem ipsum dolor sit amet, consectetur adipiscing</span><br>
+                            <p class='date'>12 May, 2019</p>
                         </div>
                         <div class='post-item'><img src='img\5namas.jpg'></div>
-                        <div class='post-item-10'><p class='lspost'>At vero eos et accusamus et iusto odio</p><br>
-                            <span class='date'>12 May, 2019</span>
+                        <div class='post-item-10'><span class='lspost'>At vero eos et accusamus et iusto odio</span><br>
+                            <p class='date'>12 May, 2019</p>
                         </div>
 
                                        
@@ -89,7 +89,7 @@
                     <div class='arch'>
                         <h3>Archives</h3>
                              <ul class='archive'>
-                              <li>May 2019</li>
+                              <li><a href='#'>May 2019</a></li>
                              </ul>
                     
                     </div>
@@ -98,10 +98,10 @@
                         <h3>Categories</h3>
                         <ul>
                             <li><a href='#'>Advertising</a></li>
-                            <li>Web developing</li>
-                            <li>Graphic design</li>
-                            <li>HTML</li>
-                            <li>Creative</li>
+                            <li><a href='#'>Web developing</a></li>
+                            <li><a href='#'>Graphic design</a></li>
+                            <li><a href='#'>HTML</a></li>
+                            <li><a href='#'>Creative</a></li>
                         </ul>
 
                     </div>
@@ -235,7 +235,7 @@
                 <div class='bNavbar-item2'><span class='subs'>Subscribe our</span><span class='yellow'> newsletter</span></div>
                 <div class='bNavbar-item3'><span class='subs'>Contact us</span></div>
                     <div class='bNavbar-item6'><span>(052) 611-5711<span><br>
-                                            <span> name.surname@companyname.com</span>
+                                            <span class='email'><a href="mailto:someone@example.com">name.surname@companyname.com</a></span>
                 </div>
                 <div class='bNavbar-item4'><input type='text' placeholder='E-mail'></div>
                 <div class='bNavbar-item5'>
@@ -256,6 +256,20 @@
             </div>
 
     </div>
+
+
+
+    <script>
+
+            document.querySelector('.item, .-link').onclick = function() {
+            this.classList.toggle('active');
+            document.querySelector('.list-1').classList.toggle('active');
+            document.querySelector('.list-2').classList.toggle('active');
+            
+        }
+
+
+    </script>
     
 </body>
 </html>

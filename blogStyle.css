@@ -34,7 +34,7 @@ body {
     display: flex;
     width: 100%;
     flex-flow: row wrap;
-    background-color: cadetblue;
+    /* background-color: cadetblue; */
    
     
     
@@ -53,6 +53,11 @@ body {
     /* margin-right: 5px; */
     
     
+    
+}
+
+.item, .-link:hover {
+    cursor: pointer;
     
 }
 
@@ -152,7 +157,7 @@ h3 {
     grid-row-gap: 1.6667rem;
 }
 
-.under p {
+span.lspost {
     margin-top: 0;
     color: #787878;
     font-size: 1rem;
@@ -162,7 +167,8 @@ h3 {
     font-size: 0.7222rem;
     color: #969696;
     opacity: 1;
-    padding-bottom: 0.2778rem;
+    /* padding-bottom: 0.2778rem; */
+    padding-top: 23px;
 
 }
 
@@ -201,12 +207,12 @@ h4 {
     padding-bottom: 0.7778rem;
 }
 
-.arc {
+/* .arc {
  display: block;
  float: left;
  
 
-}
+} */
 .categor ul {
  padding-left: 0.8889rem;
  font-size: 1rem;
@@ -223,6 +229,19 @@ h4 {
     line-height: 2.2222rem;
     
 
+}
+
+.archive a {
+    text-decoration: none;
+    color: #787878;
+    font-family: SourceSansPro-SemiBold;
+}
+
+.categor a {
+    text-decoration: none;
+    font-family: SourceSansPro-SemiBold;
+    font-size: 1rem;
+    color: #787878;
 }
 
 .tagbtn button {
@@ -355,7 +374,7 @@ button:hover {
 .bNavbar-item4 input {
     border: transparent;
     background-color: #060606;
-    width: 100%;
+    width: 98%;
     padding-bottom: 5px;
     color: #ffffff;
     font-size: 16px;
@@ -382,6 +401,11 @@ button:hover {
     color: #ffffff;
     opacity: 100%;
     PADDING-TOP: 20PX;
+}
+
+.email a {
+    text-decoration: none;
+    color: #ffffff;
 }
 
 .main-cont {
